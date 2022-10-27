@@ -1,0 +1,139 @@
+*, ::before, ::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;  
+    background-color: hsl(0, 0%, 98%);
+    font-family: Poppins;
+}
+
+header{
+    text-align: center;
+    margin: 4% 0;
+}
+
+header>p{
+    padding: 1% 31% 0;
+}
+
+h1{
+    color: hsl(234, 12%, 34%);
+    font-weight: 200;
+}
+
+h2{
+    color: hsl(234, 12%, 34%);
+    font-weight: 600;
+    font-size: 2rem;
+}
+
+h3{
+    color: hsl(234, 12%, 34%);
+    font-weight: 600;
+}
+
+.card-container{
+    display: flex;
+    justify-content: center;
+    height: 450px;
+}
+
+p{
+    color:hsl(229, 6%, 66%);
+    font-size: 15px;
+}
+
+.card-container p{
+    padding: 3% 0 5%;
+}
+
+.supervisor-card, .karma-card, .team-builder-card, .calculator-card{
+    width: 25%;
+    height: 47%;
+    border-radius: 0 0 5px 5px;
+    background-color: white;
+    box-shadow: 1px 1px 15px 0 hsl(229, 6%, 66%);
+    align-self: center;
+}
+
+img{
+    width: 15%;
+    display: block;
+    margin-left: auto;
+}
+
+.supervisor-divider, .team-builder-divider, .calculator-divider, .karma-divider{
+    margin-bottom: 7%;
+    border-radius: 5px 5px 0 0;
+}
+
+.supervisor-job-desc, .team-builder-job-desc, .calculator-job-desc, .karma-job-desc{
+    padding:0 8% ;
+}
+
+.column-card{
+    width: 25%;
+    margin: 0 2%;
+}
+
+.karma-card, .team-builder-card{
+    width: unset;
+}
+
+.karma-card{
+  margin-top: 7%;
+}
+
+@media (max-width: 425px){
+    #main{
+       
+        margin: 15% 0;
+    }
+    
+    body, html{
+        height: unset;
+    }
+    
+    .card-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: unset;
+    }
+
+    .supervisor-card, .karma-card, .team-builder-card, .calculator-card{
+        width: 80%;
+        padding-bottom: 7%;
+    }
+
+    .column-card{
+        width: 80%;
+        align-items: center;
+        margin-top: 7%;
+    }
+
+    .karma-card, .team-builder-card{
+        width: unset;
+        align-self: center;
+    }
+
+    .karma-card{
+        margin-bottom: 7%;
+    }
+
+    header>p{
+        padding: 1% 10% 8%;
+    }
+
+    h1, h2{
+        font-size: 22px;
+    }
+
+}
+
+
+
+
