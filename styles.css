@@ -53,7 +53,7 @@ p{
 .supervisor-card, .karma-card, .team-builder-card, .calculator-card{
     width: 25%;
     height: 47%;
-    border-radius: 0 0 5px 5px;
+    border-radius: 5px;
     background-color: white;
     box-shadow: 1px 1px 15px 0 hsl(229, 6%, 66%);
     align-self: center;
